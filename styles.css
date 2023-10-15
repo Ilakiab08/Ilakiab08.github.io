@@ -20,29 +20,29 @@
   .container {
     max-width: var(--max-width);
     margin: auto;
-    padding: 5rem 1rem;
+    padding: 5rem 20px;
   }
   
   
   
-  .section_title {
+  .explore {
     font-size: 2rem;
     font-weight: 600;
     color: var(--text-dark);
-    margin-bottom: 1rem;
+    margin-bottom: 20px;
   }
   
   .subtitle {
-    font-size: 1rem;
+    font-size: 20px;
     color: var(--text-dark);
-    max-width: calc(var(--max-width) / 2);
+  
   }
   
   .btn {
     padding: 0.75rem 2rem;
     outline: none;
     border: none;
-    font-size: 1rem;
+    font-size: 20px;
     color: var(--extra-light);
     background-color: var(--primary-color);
     border-radius: 5rem;
@@ -68,7 +68,7 @@
   }
   
   nav {
-    padding: 1rem;
+    padding: 20px;
     position: absolute;
     top: 0;
     left: 50%;
@@ -95,11 +95,11 @@
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 20px;
   }
   
   .link a {
-    padding: 0 1rem;
+    padding: 0 20px;
     color: var(--text-dark);
     transition: 0.3s;
   }
@@ -133,12 +133,12 @@
   }
   
   .himage img:nth-child(1) {
-    max-width: 350px;
+    max-width: 450px;
     transform: translate(-75%, -50%);
   }
   
   .himage img:nth-child(2) {
-    max-width: 250px;
+    max-width: 300px;
     transform: translate(0%, -25%);
   }
   
@@ -148,14 +148,14 @@
     justify-content: center;
   }
   
-  .hcontent > div {
+  .hcontent  div {
     max-width: 400px;
     display: grid;
-    gap: 1rem;
+    gap: 20px;
   }
   
   .hcontent .sub_header {
-    font-size: 1rem;
+    font-size: 20px;
     font-weight: 600;
     color: var(--primary-color);
   }
@@ -171,7 +171,7 @@
     display: flex;
     align-items: center;
     gap: 2rem;
-    margin-top: 1rem;
+    margin-top: 20px;
   }
   
   .story {
@@ -181,38 +181,11 @@
     cursor: pointer;
   }
   
- /*  .video_image {
-    position: relative;
-  }
-  
-  .video_image img {
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
-  }
-  
-  .video_image span {
-    position: absolute;
-    top: 50%;
-    left: 100%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .video_image span i {
-    padding: 0.5rem;
-    font-size: 1rem;
-    color: red;
-    background-color: var(--extra-light);
-    border-radius: 100%;
-    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
-  }
-   */
-  
+ 
   
   .destination_nav {
     display: flex;
-    gap: 1rem;
+    gap: 20px;
   }
   
   .destination_nav span {
@@ -233,31 +206,31 @@
     background-color: var(--primary-color);
   }
   
-  .destination_grid {
+  .grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
   }
   
-  .destination_card {
+  .card {
     overflow: hidden;
     position: relative;
     isolation: isolate;
     cursor: pointer;
   }
   
-  .destination_card img {
-    border-radius: 1rem;
+  .card img {
+    border-radius: 20px;
     height: 140px;
     object-fit: cover;
     width: 100%;
 
   }
   
-  .destination_details {
+  .info {
     position: absolute;
     width: calc(100% - 2rem);
-    padding: 1rem;
+    padding: 20px;
     bottom: -6rem;
     left: 50%;
     transform: translateX(-50%);
@@ -270,8 +243,8 @@
     transition: 0.3s;
   }
   
-  .destination_card:hover .destination_details {
-    bottom: 1rem;
+  .card:hover .info {
+    bottom: 20px;
   }
   
   .destination_title {
@@ -279,8 +252,8 @@
     margin-bottom: 0.5rem;
   }
   
-  .destination_subtitle {
-    font-size: 1rem;
+  .country {
+    font-size: 20px;
     font-weight: 600;
   }
   
@@ -288,7 +261,7 @@
     background-color: var(--secondary-color);
   }
   
-  .trip_container :is(.section_title, .subtitle, .view_all) {
+  .trip_container :is(.explore, .subtitle, .view_all) {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -303,7 +276,7 @@
   }
   
   .trip_card {
-    border-radius: 1rem;
+    border-radius: 20px;
     overflow: hidden;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
     
@@ -316,10 +289,10 @@
   }
   
   .trip_details {
-    padding: 1rem;
+    padding: 20px;
     display: grid;
     gap: 0.5rem;
-    font-size: 1rem;
+    font-size: 20px;
     font-weight: 600;
     color: var(--text-dark);
     background-color: var(--extra-light);
@@ -330,7 +303,7 @@
     color: goldenrod;
   }
   
-  .booking__price {
+  .package {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -367,32 +340,32 @@
   .image_gallary {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    gap: 20px;
   }
   
   .gallary_col {
     display: grid;
     place-content: center;
-    gap: 1rem;
+    gap: 20px;
   }
   
   .gallary_col img {
-    border-radius: 1rem;
+    border-radius: 20px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
   }
   
-  .gallary_content {
+  .content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
   
-  .gallary_content > div {
+  .content > div {
     max-width: 400px;
   }
   
-  .gallary_content .subtitle {
+  .content .subtitle {
     margin-bottom: 2rem;
   }
   
@@ -400,19 +373,19 @@
     background-color: var(--secondary-color);
   }
   
-  .subscribe_container {
+  .subscribe {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
   }
   
-  .subscribe_form {
+  .subscription {
     display: flex;
     align-items: center;
     justify-content: center;
   }
   
-  .subscribe_form form {
+  .subscription form {
     width: 100%;
     max-width: 400px;
     display: flex;
@@ -421,53 +394,53 @@
     border-radius: 5rem;
   }
   
-  .subscribe_form input {
+  .subscription input {
     width: 100%;
-    padding: 1rem;
+    padding: 20px;
     outline: none;
     border: none;
     border-radius: 5rem;
-    font-size: 1rem;
+    font-size: 20px;
   }
   
   .footer {
     background-color: var(--text-dark);
   }
   
-  .footer_container {
+ .fhero {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5rem;
     color: var(--secondary-color);
   }
   
-  .footer_col h3 {
+  .col h3 {
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 2rem;
   }
   
-  .footer_col h3 span {
+  .col h3 span {
     color: var(--primary-color);
   }
   
-  .footer_col p {
+  .col p {
     font-size: 0.8rem;
-    margin-bottom: 1rem;
+    margin-bottom: 20px;
     cursor: pointer;
     transition: 0.3s;
   }
   
-  .footer_col p:hover {
+  .col p:hover {
     color: var(--primary-color);
   }
   
-  .footer_col p span {
+  .col p span {
     font-weight: 600;
   }
   
-  .footer_col h4 {
-    font-size: 1rem;
+  .col h4 {
+    font-size: 20px;
     font-weight: 600;
     margin-bottom: 2rem;
   }
@@ -483,11 +456,11 @@
   }
   
   @media (width < 1200px) {
-    .header_image img:nth-child(1) {
+    .himage img {
       max-width: 300px;
     }
   
-    .header_image img:nth-child(2) {
+    .himage img {
       max-width: 200px;
     }
   }
@@ -497,15 +470,15 @@
       display: none;
     }
   
-    .header_container {
+    .hcontainer {
       grid-template-columns: repeat(1, 1fr);
     }
-    .header_image {
+    .himage {
       min-height: 500px;
     }
   
-    .destination_grid {
-      gap: 1rem;
+    .grid {
+      gap: 20px;
     }
   
     .trip_grid {
@@ -514,7 +487,7 @@
   }
   
   @media (width < 600px) {
-    .destination_grid {
+    .grid {
       grid-template-columns: repeat(2, 1fr);
     }
   
@@ -526,11 +499,11 @@
       grid-template-columns: repeat(1, 1fr);
     }
   
-    .subscribe_container {
+    .subscribe {
       grid-template-columns: repeat(1, 1fr);
     }
   
-    .footer_container {
+   .fhero {
       grid-template-columns: repeat(2, 1fr);
     }
   }
