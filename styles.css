@@ -50,6 +50,7 @@
     transition: 0.3s;
   }
   
+  
  .btn:hover {
     background-color: var(--primary-color-dark);
   }
@@ -376,7 +377,7 @@
   .subscribe {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 40px;
   }
   
   .subscription {
