@@ -126,14 +126,14 @@
   
   .himage img {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 5%;
+    left: 5%;
     border: 0.5rem solid var(--extra-light);
     border-radius: 2rem;
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
   }
   
-  .himage img:nth-child(1) {
+  /* .himage img:nth-child(1) {
     max-width: 450px;
     transform: translate(-75%, -50%);
   }
@@ -141,7 +141,7 @@
   .himage img:nth-child(2) {
     max-width: 300px;
     transform: translate(0%, -25%);
-  }
+  } */
   
   .hcontent {
     display: flex;
